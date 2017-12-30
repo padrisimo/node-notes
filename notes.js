@@ -41,9 +41,11 @@ var getNote = (title) => {
 }
 
 var removeNote = (title) => {
-    // fectch notes
-    // fliter notes
-    // save new notes arry
+    var notes = fecthNotes();
+    var filteredNotes = notes.filter((note) => note.title !== title);
+    saveNotes(filteredNotes);
+
+    return notes.length !== filteredNotes.length;
 }
 
 module.exports = {
