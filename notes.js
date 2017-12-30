@@ -41,7 +41,9 @@ var getNote = (title) => {
 }
 
 var removeNote = (title) => {
-    console.log('Removing ', title);
+    // fectch notes
+    // fliter notes
+    // save new notes arry
 }
 
 module.exports = {
@@ -49,4 +51,4 @@ module.exports = {
     getAll,
     getNote,
     removeNote
-/*  */};
+};
