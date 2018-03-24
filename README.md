@@ -3,8 +3,13 @@ Node notes is a Command Line Interface Application wich means that it works in a
 
 ### To add a Note
 ```
-> node app.js add --title="toDo" --body="kill all humans"
+> node app.js add --title="toDo" --body="kill humans"
 ```
+or
+```
+> node app.js add -t="toDo later" -b="read comic books"
+```
+Yo can use the full arguments (--title) or their flag version (-t), both works the same in any command.
 
 ### List all Notes
 ```
@@ -19,4 +24,15 @@ Node notes is a Command Line Interface Application wich means that it works in a
 ### Remove one Note (search by title)
 ``` 
 > node app.js remove --title="toDo"
+```
+
+### Show Available Commands and Use (help)
+``` 
+> node app.js --help
+```
+
+### Show help and descriptions of one Command
+You may replace add with any other command (list, remove, read)
+``` 
+> node app.js  add --help
 ```
