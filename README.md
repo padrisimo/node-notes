@@ -32,7 +32,7 @@ Yo can use the full arguments (--title) or their flag version (-t), both works t
 ```
 
 ### Show help and descriptions of one Command
-You may replace add with any other command (list, remove, read)
+You may replace **add** with any other command (list, remove, read)
 ``` 
 > node app.js  add --help
 ```
